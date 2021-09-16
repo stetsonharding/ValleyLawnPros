@@ -1,0 +1,26 @@
+@import "../../custom.scss";
+
+/* --navbar links-- */
+#navbar-link {
+  color: $success;
+  font-size: 24px;
+  margin: 12px;
+  letter-spacing: 1.2px;
+}
+#navbar-link:hover {
+  color: $pink;
+  transition: 0.4s;
+  font-weight: bold;
+}
+/* =================== */
+
+@media (max-width: 991.98px) {
+  .nav-container {
+    padding: 2px !important;
+  }
+  #navbar-link {
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 0;
+  }
+}

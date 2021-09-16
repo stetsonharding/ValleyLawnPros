@@ -1,0 +1,12 @@
+//customizing bootstrap theme
+$primary: #4b604f;
+$secondary: #84b4ca;
+$dark: rgb(75, 5, 57);
+$light: #798998;
+$success: #fff;
+$pink: rgb(92, 15, 92);
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";

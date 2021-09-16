@@ -1,17 +1,17 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import "./Header.css";
+import "./Header.scss";
 
 import VLPLogo from "../../assets/VLP_Logo.png";
 
 const Header = () => {
   return (
     <Navbar
-      className="nav-container"
+      className="nav-container p-4"
       collapseOnSelect
       expand="lg"
-      variant="light"
       sticky="top"
+      bg="primary"
     >
       <Container fluid>
         <Navbar.Brand href="/">
@@ -22,7 +22,7 @@ const Header = () => {
             alt="Valley Lawn Pros Logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" variant="dark" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav className="navbar-links-container">
