@@ -1,0 +1,46 @@
+@import "../../custom.scss";
+
+.hero-image {
+  width: 100%;
+  height: 700px;
+  background: url(../../assets/VLP-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+
+  position: relative;
+}
+
+//Making Hero image darker, and not the content
+.hero-image::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.27;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  position: absolute;
+}
+
+.hero-col h5 {
+  color: $success;
+  font-weight: bolder;
+  text-shadow: 3px 3px 3px #000;
+  color: $success;
+}
+
+.hero-main-heading h5 {
+  color: $pink;
+  font-weight: bold;
+}

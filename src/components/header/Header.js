@@ -39,9 +39,6 @@ const Header = () => {
             <Nav.Link id="navbar-link" href="/Rewards">
               Portfolio
             </Nav.Link>
-            {/* <Nav.Link id="navbar-link" href="/OrderOnline">
-              Order Online
-            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

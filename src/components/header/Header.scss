@@ -1,5 +1,7 @@
 @import "../../custom.scss";
-
+.nav-container {
+  border-bottom: 2px solid $success;
+}
 /* --navbar links-- */
 #navbar-link {
   color: $success;
