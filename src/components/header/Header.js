@@ -16,13 +16,17 @@ const Header = () => {
       <Container fluid>
         <Navbar.Brand href="/">
           <img
-            style={{ width: "150px" }}
+            style={{ width: "130px" }}
             id="logo"
             src={VLPLogo}
             alt="Valley Lawn Pros Logo"
+            className="navbar--logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" variant="dark" />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="navbar--toggle"
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav className="navbar-links-container">
@@ -30,14 +34,14 @@ const Header = () => {
               Home
             </Nav.Link>
             <Nav.Link id="navbar-link" href="/location">
-              Locations
+              Contact
             </Nav.Link>
             <Nav.Link id="navbar-link" href="/Rewards">
-              Rewards
+              Portfolio
             </Nav.Link>
-            <Nav.Link id="navbar-link" href="/OrderOnline">
+            {/* <Nav.Link id="navbar-link" href="/OrderOnline">
               Order Online
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
