@@ -9,16 +9,16 @@ const Hero = () => {
         <Container fluid>
           <Row>
             <Col className="hero-col">
-              <h5 className="hero-main-heading display-3 mb-3">
+              <h5 className="hero-main-heading display-4 mb-3">
                 Quality Service. Excellent Care. Every Time.
               </h5>
-              <h5 className="display-5 mb-5">
-                <span style={{ color: "forestgreen" }}>Lawn Care </span>
+              <h5 className="hero-subheading display-5 mb-5">
+                <span className="span-lawn-care">Lawn Care </span>
                 Specialists
               </h5>
-              <p>
-                <Button bg="success">Contact Us</Button>
-              </p>
+              <div className="hero-btn-container">
+                <Button className="hero-btn">Get A Lawn Service Quote</Button>
+              </div>
             </Col>
           </Row>
         </Container>
