@@ -1,12 +1,14 @@
-import "./App.css";
 import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
+import Index from "./pages/index";
+
+//app css
+import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
+      <Index />
     </>
   );
 }
