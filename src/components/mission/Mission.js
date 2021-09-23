@@ -1,22 +1,24 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 
 import "./Mission.scss";
 
-function Mission() {
+function Mission(props) {
   return (
     <div className="mission-container">
       <div className="mission-heading">
-        <h1>Valley Lawn Pros</h1>
+        <h1>{props.title}</h1>
       </div>
       <div className="mission-details">
-        <p>
-          At Valley Lawn Pros, it is our mission to provide our clients with
-          unmatched levels of excellence and expertise in every aspect of your
-          home's landscape. Building and sustaining lifelong relationships by
-          listening to our clients' needs, we will transform your vision into
-          reality, adding beautiful outdoor living spaces to your home.
-        </p>
+        <p>{props.missionDetails}</p>
       </div>
+      <Button
+        className="mission-btn mt-1"
+        variant="dark"
+        href={`tel:4253440797`}
+      >
+        {props.btnText}
+      </Button>
     </div>
   );
 }

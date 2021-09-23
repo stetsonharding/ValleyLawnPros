@@ -1,1 +1,14 @@
+@import "../../custom.scss";
 
+.mission-heading {
+  color: $pink;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.mission-details {
+  font-size: 1.1rem;
+}
+
+.mission-btn:hover {
+  opacity: 0.9;
+}
