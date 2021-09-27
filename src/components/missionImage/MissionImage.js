@@ -2,13 +2,11 @@ import React from "react";
 
 import "./MissionImage.scss";
 
-import MissionImageTest from "../../assets/MissionImage-test.jpg";
-
-function MissionImage() {
+function MissionImage(props) {
   return (
-    <div classname="mission-image-container">
-      <div classname="mission-image">
-        <img className="landscape-image" src={MissionImageTest} alt="" />
+    <div className="mission-image-container p-2">
+      <div className="mission-image">
+        <img src={props.src} alt={props.alt} />
       </div>
     </div>
   );
