@@ -1,15 +1,16 @@
 @import "../../custom.scss";
 
+//title
 .mission-heading {
   color: $pink;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
+//mission statement
 .mission-details {
   font-size: 1.1rem;
   letter-spacing: 1px;
 }
-
+//call button
 .mission-btn:hover {
   opacity: 0.9;
 }

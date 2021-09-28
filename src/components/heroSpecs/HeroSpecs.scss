@@ -1,0 +1,28 @@
+@import "../../custom.scss";
+
+//spec unordered list.
+.spec-list {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  justify-content: flex-end;
+
+  li {
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+    color: $primary;
+    font-weight: bolder;
+  }
+}
+
+//galaxy fold
+@media (max-width: 290px) {
+  .spec-list {
+    margin: 0;
+    padding: 0;
+    li {
+      font-size: 0.7rem;
+    }
+  }
+}

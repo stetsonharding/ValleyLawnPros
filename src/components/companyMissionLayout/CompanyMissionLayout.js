@@ -10,6 +10,7 @@ import HeroImage from "../../assets/Hero_Image.jpg";
 //components
 import Mission from "../mission/Mission";
 import MissionImage from "../missionImage/MissionImage";
+import HeroSpecs from "../heroSpecs/HeroSpecs";
 
 const CompanyMissionLayout = () => {
   return (
@@ -17,27 +18,21 @@ const CompanyMissionLayout = () => {
       fluid
       className="company-mission-layout-container d-flex align-items-center justify-content-center"
     >
-      <Row className="company-mission-layout-row ">
+      <Row className="company-mission-layout-row flex-column-reverse flex-lg-row">
         <Col
           xs={12}
           lg={6}
           xl={""}
-          className="text-center d-flex align-items-center justify-content-center"
+          className="text-center d-flex align-items-center justify-content-center mt-4"
         >
           <MissionImage src={HeroImage} alt={"Valley Lawn Pro's Employee"} />
-          <div className="d-flex align-items-center justify-content-center flex-column">
-            <ul>
-              <li>Design</li>
-              <li>Install</li>
-              <li>Maintain</li>
-            </ul>
-          </div>
+          <HeroSpecs />
         </Col>
         <Col
           xs={12}
-          lg={4}
+          lg={5}
           xl={""}
-          className="text-center d-flex align-items-center"
+          className="text-center d-flex align-items-center mb-5 pt-5"
         >
           <Mission
             title="Valley Lawn Pro's"
