@@ -1,36 +1,30 @@
 .mission-image img {
   border-radius: 100%;
-  width: 290px;
-  height: 310px;
+  width: 280px;
+  height: 300px;
   box-shadow: 3px 3px 3px #000;
 }
 
 //galaxy fold
 @media (max-width: 290px) {
   .mission-image img {
-    border-radius: 100%;
-    width: 250px;
-    height: 270px;
-    box-shadow: 3px 3px 3px #000;
+    width: 230px;
+    height: 250px;
   }
 }
 
 //all other mobile devices
 @media (max-width: 575.98px) {
   .mission-image img {
-    border-radius: 100%;
     width: 250px;
     height: 270px;
-    box-shadow: 3px 3px 3px #000;
   }
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 993px) {
   .mission-image img {
-    border-radius: 100%;
     width: 200px;
     height: 220px;
-    box-shadow: 3px 3px 3px #000;
   }
 }
