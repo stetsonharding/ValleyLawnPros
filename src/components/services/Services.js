@@ -1,5 +1,9 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+
+import Service from "../Service/Service";
+
+import GrassMower from "../../assets/GrassMower.jpg";
 
 import "./Services.scss";
 
@@ -7,10 +11,35 @@ const Services = () => {
   return (
     <Container fluid className="p-0 mb-2 mt-4">
       <div className="service-background">
-        <h1 className="our-services-title d-flex justify-content-center p-5">
+        <p className="services-title d-flex justify-content-center p-5 display-5">
           Our
           <span className="services-span">Services </span>
-        </h1>
+        </p>
+        <Row>
+          <Col>
+            <Service
+              src={GrassMower}
+              alt="Grass Mower"
+              description="Landscape Design & Installation"
+            />
+          </Col>
+          <Col>
+            {" "}
+            <Service
+              src={GrassMower}
+              alt="Grass Mower"
+              description="Landscape Design & Installation"
+            />
+          </Col>
+          <Col>
+            {" "}
+            <Service
+              src={GrassMower}
+              alt="Grass Mower"
+              description="Landscape Design & Installation"
+            />
+          </Col>
+        </Row>
       </div>
     </Container>
   );
