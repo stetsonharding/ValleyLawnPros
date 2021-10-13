@@ -2,15 +2,22 @@
 
 .service-background {
   height: 55vh;
-  // background-color: black;
+  background-image: url(../../assets/ServiceBG_.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
 
 .services-title {
   font-family: Merriweather, Arial, Helvetica, sans-serif;
-  color: #000;
+  color: #fff;
+  font-size: 2.2rem;
+  text-transform: uppercase;
 }
 //spacing and style for span
 .services-span {
   margin-left: 15px;
   color: forestgreen;
+  font-weight: bold;
 }
