@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import Service from "../Service/Service";
 
 import GrassMower from "../../assets/GrassMower.jpg";
+import HolidayLightings from "../../assets/holidayLightings.jpg";
+import GardeningAndTreatment from "../../assets/GardeningAndTreatment.jpg";
 
 import "./Services.scss";
 
@@ -24,26 +26,31 @@ const Services = () => {
           <Col>
             <Service
               src={GrassMower}
-              alt="Grass Mower"
+              alt="Employee maintaining lawn"
               description="Landscape Design & Installation"
             />
           </Col>
           <Col>
             {" "}
             <Service
-              src={GrassMower}
-              alt="Grass Mower"
+              src={HolidayLightings}
+              alt="Holday lights on house"
               description="Lighting and fixtures"
             />
           </Col>
           <Col>
             {" "}
             <Service
-              src={GrassMower}
-              alt="Grass Mower"
+              src={GardeningAndTreatment}
+              alt="Organized and maintained garden"
               description="Gardening and treatment"
             />
           </Col>
+          <div style={{ textAlign: "center" }}>
+            <Button style={{ backgroundColor: "rgb(92, 15, 92)" }}>
+              View Services
+            </Button>
+          </div>
         </Row>
       </div>
     </Container>
