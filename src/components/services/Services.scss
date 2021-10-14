@@ -1,7 +1,8 @@
 @import "../../custom.scss";
 
 .service-background {
-  height: 55vh;
+  max-height: 100%;
+  min-height: 700px;
 
   background-image: url(../../assets/ServiceBG_.webp);
   background-repeat: no-repeat;

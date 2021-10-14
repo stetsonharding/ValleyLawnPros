@@ -11,13 +11,13 @@ import "./Services.scss";
 
 const Services = () => {
   return (
-    <Container fluid className="mb-2 mt-4">
+    <Container fluid className="mt-5">
       <div className="service-background">
         <Row
-          style={{ height: "100%" }}
-          className="d-flex justify-content-center align-items-center "
+          style={{ minHeight: "700px" }}
+          className="d-flex justify-content-center align-items-center p-0 m-0"
         >
-          <div>
+          <div className="m-4">
             <p className="services-title d-flex justify-content-center">
               Our
               <span className="services-span">Services </span>
@@ -46,7 +46,7 @@ const Services = () => {
               description="Gardening and treatment"
             />
           </Col>
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "center" }} className="m-3">
             <Button style={{ backgroundColor: "rgb(92, 15, 92)" }}>
               View Services
             </Button>
