@@ -11,14 +11,14 @@ import "./Services.scss";
 
 const Services = () => {
   return (
-    <Container fluid className="mt-5">
+    <Container fluid className="mt-5 p-0">
       <div className="service-background">
         <Row
           style={{ minHeight: "700px" }}
           className="d-flex justify-content-center align-items-center p-0 m-0"
         >
-          <div className="m-4">
-            <p className="services-title d-flex justify-content-center">
+          <div className="m-0">
+            <p className="services-title d-flex justify-content-center m-4">
               Our
               <span className="services-span">Services </span>
             </p>
