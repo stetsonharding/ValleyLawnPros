@@ -35,20 +35,20 @@ function QuoteModal() {
               <Form.Label>Service</Form.Label>
               <Form.Control
                 type="tel"
-                placeholder="What service are you interested in?"
+                placeholder="What Service are you Interested in?"
               />
               <Form.Text className="text-muted">
                 We will give you a call within the next 24 hours
               </Form.Text>
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="dark" type="submit">
               Submit
             </Button>
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="" onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>

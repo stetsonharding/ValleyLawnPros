@@ -48,7 +48,7 @@ const Services = () => {
           </Col>
           <div style={{ textAlign: "center" }} className="m-3">
             <Button style={{ backgroundColor: "rgb(92, 15, 92)" }}>
-              View Services
+              View All Services
             </Button>
           </div>
         </Row>
