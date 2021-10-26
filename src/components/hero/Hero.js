@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import QuoteModal from "../quoteModal/QuoteModal";
 
 import "./Hero.scss";
 const Hero = () => {
@@ -17,7 +18,8 @@ const Hero = () => {
                 Specialists
               </h5>
               <div className="hero-btn-container">
-                <Button className="hero-btn">Get A Lawn Service Quote</Button>
+                {/* Quote Modal */}
+                <QuoteModal />
               </div>
             </Col>
           </Row>

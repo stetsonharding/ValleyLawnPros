@@ -7,7 +7,13 @@ function Service(props) {
     <div className="service-container">
       <div className="service-image-container">
         <div className="service-image">
-          <img src={props.src} alt={props.alt} width="320" height="316" />
+          <img
+            loading="lazy"
+            src={props.src}
+            alt={props.alt}
+            width="320"
+            height="316"
+          />
         </div>
       </div>
       <p className="service-description pt-2">{props.description}</p>
