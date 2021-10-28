@@ -4,6 +4,7 @@ import React from "react";
 import Hero from "../components/hero/Hero";
 import CompanyMission from "../components/companyMissionLayout/CompanyMissionLayout";
 import Services from "../components/services/Services";
+import HowItWorks from "../components/howItWorksLayout/HowItWorksLayout";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <Hero />
       <CompanyMission />
       <Services />
+      <HowItWorks />
     </>
   );
 };
