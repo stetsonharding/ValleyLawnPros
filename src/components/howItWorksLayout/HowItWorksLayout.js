@@ -8,10 +8,11 @@ function HowItWorksLayout() {
   return (
     <Container
       fluid
+      style={{ height: "600px" }}
       className="howItWorks-container d-flex align-items-center justify-content-center"
     >
       <Row>
-        <Col>
+        <Col className="d-flex  align-items-center justify-content-center">
           <LandScapeFlow
             flowIcon="far fa-comment-dots fa-3x"
             step="Step 1: we come to you"

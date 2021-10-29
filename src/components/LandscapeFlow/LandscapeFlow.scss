@@ -1,0 +1,30 @@
+.flow-container {
+  background-color: blue;
+  width: 500px;
+  height: 100%;
+  min-height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.flow-icon {
+  background-color: blueviolet;
+  height: 100px;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+}
+
+.flow-steps {
+  background-color: burlywood;
+}
+
+.flow-description {
+  background-color: cadetblue;
+  text-align: center;
+}

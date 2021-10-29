@@ -1,4 +1,7 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+
+import "./LandscapeFlow.scss";
 
 export default function LandScapeFlow(props) {
   return (
