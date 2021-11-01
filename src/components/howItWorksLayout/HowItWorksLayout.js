@@ -8,12 +8,13 @@ function HowItWorksLayout() {
   return (
     <Container
       fluid
-      style={{ minHeight: "600px auto" }}
-      className="howItWorks-container d-flex align-items-center justify-content-center"
+      style={{ minHeight: "600px" }}
+      className="howItWorks-container d-flex align-items-center justify-content-center mt-5 mb-5"
     >
       <Row>
         <Col
           sm={12}
+          md={6}
           lg={3}
           className="d-flex  align-items-center justify-content-center"
         >
@@ -26,8 +27,9 @@ function HowItWorksLayout() {
         </Col>
         <Col
           sm={12}
+          md={6}
           lg={3}
-          className="d-flex  align-items-center justify-content-center"
+          className="d-flex  align-items-center justify-content-center "
         >
           <LandScapeFlow
             flowIcon="far fa-comment-dots fa-3x"
@@ -38,8 +40,9 @@ function HowItWorksLayout() {
         </Col>
         <Col
           sm={12}
+          md={6}
           lg={3}
-          className="d-flex  align-items-center justify-content-center"
+          className="d-flex  align-items-center justify-content-center "
         >
           <LandScapeFlow
             flowIcon="far fa-comment-dots fa-3x"
@@ -50,8 +53,9 @@ function HowItWorksLayout() {
         </Col>
         <Col
           sm={12}
+          md={6}
           lg={3}
-          className="d-flex  align-items-center justify-content-center"
+          className="d-flex  align-items-center justify-content-center "
         >
           <LandScapeFlow
             flowIcon="far fa-comment-dots fa-3x"
