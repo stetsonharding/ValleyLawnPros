@@ -1,6 +1,6 @@
 .flow-container {
-  background-color: blue;
-  width: 500px;
+  // background-color: blue;
+  max-width: 500px;
   height: 100%;
   min-height: 350px;
 
@@ -9,10 +9,12 @@
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.1rem;
 }
 
 .flow-icon {
-  background-color: blueviolet;
+  // background-color: blueviolet;
   height: 100px;
   width: 50%;
   align-items: flex-start;
@@ -21,10 +23,12 @@
 }
 
 .flow-steps {
-  background-color: burlywood;
+  // background-color: burlywood;
+  margin-top: 10px;
 }
 
 .flow-description {
-  background-color: cadetblue;
+  // background-color: cadetblue;
   text-align: center;
+  margin: 10px;
 }

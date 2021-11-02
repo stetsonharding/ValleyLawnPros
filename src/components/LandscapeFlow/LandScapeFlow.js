@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 
 import "./LandscapeFlow.scss";
 
@@ -9,7 +8,10 @@ export default function LandScapeFlow(props) {
       <div className="flow-icon">
         <i class={props.flowIcon}></i>
       </div>
-      <div className="flow-steps">{props.step}</div>
+      <div className="flow-steps">
+        {props.step}
+        <span style={{ color: "green", fontSize: "50px" }}> .</span>
+      </div>
       <div className="flow-description">{props.flowDescription}</div>
     </div>
   );
