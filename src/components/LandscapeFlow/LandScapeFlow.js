@@ -10,7 +10,13 @@ export default function LandScapeFlow(props) {
       </div>
       <div className="flow-steps">
         {props.step}
-        <span style={{ color: "green", fontSize: "50px" }}> .</span>
+        <span style={{ color: "rgb(92, 15, 92)", fontSize: "40px" }}>.</span>
+        <hr
+          style={{
+            color: "rgb(92, 15, 92)",
+            height: "5px",
+          }}
+        />
       </div>
       <div className="flow-description">{props.flowDescription}</div>
     </div>

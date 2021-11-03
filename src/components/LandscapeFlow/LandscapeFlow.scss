@@ -1,5 +1,4 @@
 .flow-container {
-  // background-color: blue;
   max-width: 500px;
   height: 100%;
   min-height: 350px;
@@ -8,27 +7,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1.1rem;
+  // margin:1rem;
+  outline: solid 0px rgb(92, 15, 92);
+  transition: outline 0.6s linear;
+  margin: 0.5em; /* Increased margin since the outline expands outside the element */
+}
+.flow-container:hover {
+  outline-width: 9px;
 }
 
 .flow-icon {
-  // background-color: blueviolet;
   height: 100px;
   width: 50%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   display: flex;
 }
 
 .flow-steps {
-  // background-color: burlywood;
-  margin-top: 10px;
+  text-transform: uppercase;
 }
 
 .flow-description {
-  // background-color: cadetblue;
   text-align: center;
   margin: 10px;
 }
