@@ -1,15 +1,14 @@
+//container
 .flow-container {
-  max-width: 500px;
-  height: 100%;
-  min-height: 350px;
+  width: 400px;
 
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1.1rem;
-  // margin:1rem;
   outline: solid 0px rgb(92, 15, 92);
   transition: outline 0.6s linear;
   margin: 0.5em; /* Increased margin since the outline expands outside the element */
@@ -17,6 +16,42 @@
 .flow-container:hover {
   outline-width: 9px;
 }
+//border corners for container element
+.flow-container {
+  position: relative;
+}
+.flow-container:before,
+.flow-container:after,
+.flow-container > :first-child:before,
+.flow-container > :first-child:after {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  border-color: #4b604f;
+  border-style: solid;
+  content: " ";
+}
+.flow-container:before {
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+}
+.flow-container:after {
+  top: 0;
+  right: 0;
+  border-width: 1px 1px 0 0;
+}
+.flow-container > :first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 1px 1px 0;
+}
+.flow-container > :first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 1px 1px;
+}
+// ================
 
 .flow-icon {
   height: 100px;
@@ -25,12 +60,13 @@
   justify-content: center;
   display: flex;
 }
-
 .flow-steps {
   text-transform: uppercase;
+  font-family: "Merriweather", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
 }
-
 .flow-description {
   text-align: center;
   margin: 10px;
+  font-size: 1.1rem;
 }

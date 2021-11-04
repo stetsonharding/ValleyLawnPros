@@ -13,19 +13,18 @@ function HowItWorksLayout() {
     >
       <Row className="mt-5">
         <h1
+          className="howItWorks-title"
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "flex-start",
-            height: "75px",
-            color: "#4b604f",
-            fontFamily:
-              "Cambria, Cochin, Georgia, Times, Times New Roman, serif;",
+            height: "95px",
+            color: "rgb(92, 15, 92)",
+            fontFamily: "Merriweather, Arial, Helvetica, sans-serif;",
           }}
         >
           How It Works.
         </h1>
-
         <Col
           sm={12}
           md={6}
@@ -62,7 +61,7 @@ function HowItWorksLayout() {
             flowIcon="far fa-bell fa-3x"
             step="Step 3: Transformation"
             flowDescription="It's time to say goodbye to the old and welcome the new. We move quick and keep in touch at all times while 
-            we transform your original landscape"
+            we transform your original landscape."
           />
         </Col>
         <Col

@@ -13,7 +13,7 @@ export default function LandScapeFlow(props) {
         <span style={{ color: "rgb(92, 15, 92)", fontSize: "40px" }}>.</span>
         <hr
           style={{
-            color: "rgb(92, 15, 92)",
+            color: "#4b604f",
             height: "5px",
           }}
         />
