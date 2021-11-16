@@ -6,7 +6,7 @@ export default function LandScapeFlow(props) {
   return (
     <div className="flow-container">
       <div className="flow-icon">
-        <i class={props.flowIcon}></i>
+        <i className={props.flowIcon}></i>
       </div>
       <div className="flow-steps">
         {props.step}
