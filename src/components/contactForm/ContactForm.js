@@ -3,7 +3,10 @@ import { Button, Form } from "react-bootstrap";
 
 export default function ContactForm() {
   return (
-    <div className="contact-form-container">
+    <div
+      className="contact-form-container"
+      style={{ backgroundColor: "lightgrey" }}
+    >
       <Form
         style={{
           maxWidth: "750px",
@@ -22,7 +25,7 @@ export default function ContactForm() {
           <Form.Control
             as="textarea"
             placeholder="We're here for you questions, concerns, and to talk about your ideas!"
-            rows={3}
+            rows={8}
           />
         </Form.Group>
         <Button

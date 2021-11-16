@@ -40,7 +40,7 @@ function CompanyDetails() {
 function Details(props) {
   return (
     <div
-      className="company-details-location"
+      className="company-details"
       style={{
         display: "flex",
         width: "400px",

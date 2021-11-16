@@ -9,9 +9,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function ContactUs() {
   return (
-    <Container fluid style={{ minHeight: "800px", backgroundColor: "red" }}>
+    <Container fluid style={{ minHeight: "800px" }}>
       <h1 className="contact-title">Contact.</h1>
-      <hr />
+      <hr className="contact-horizontal-line" />
       <Row>
         <div className="contact-slogan">
           <h4>Let’s talk about your ideas.</h4>
@@ -29,6 +29,10 @@ export default function ContactUs() {
             flexDirection: "column",
             justifyContent: "center",
           }}
+          sm={12}
+          md={6}
+          lg={6}
+          xl={6}
         >
           <ContactForm />
         </Col>
@@ -42,6 +46,11 @@ export default function ContactUs() {
             justifyContent: "center",
             alignItems: "center",
           }}
+          sm={12}
+          sm={12}
+          md={6}
+          lg={6}
+          xl={6}
         >
           <CompanyDetails />
         </Col>
