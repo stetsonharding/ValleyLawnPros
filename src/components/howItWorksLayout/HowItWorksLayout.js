@@ -8,17 +8,17 @@ function HowItWorksLayout() {
   return (
     <Container
       fluid
-      style={{ minHeight: "600px" }}
+      style={{ minHeight: "900px" }}
       className="howItWorks-container d-flex align-items-center justify-content-center mt-5 mb-5"
     >
-      <Row className="mt-5">
+      <Row className="mt-2">
         <h1
           className="howItWorks-title"
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "flex-start",
-            height: "95px",
+            height: "150px",
             color: "rgb(92, 15, 92)",
             fontFamily: "Merriweather, Arial, Helvetica, sans-serif;",
           }}

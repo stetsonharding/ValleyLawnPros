@@ -1,12 +1,12 @@
 import React from "react";
-import { Modal, Button, Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 
 export default function ContactForm() {
   return (
     <div className="contact-form-container">
       <Form
         style={{
-          width: "60%",
+          maxWidth: "750px",
           margin: "0 auto",
           textAlign: "center",
         }}
