@@ -1,4 +1,41 @@
-.new {
+.company-details-container {
+  //flex rules
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  max-width: 550px;
+  height: 300px;
+}
+
+// Company Details
+.company-details {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+}
+.company-details-flex {
+  //flex rules
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  p {
+    padding: 0;
+    margin: 10px;
+  }
+}
+.company-details-social {
+  //making social media icons horizontal
+  display: flex;
+}
+.company-details-social i {
+  padding-right: 5px;
+}
+.horizontal-line {
   border-bottom: 3px solid rgb(62, 82, 46);
   width: 400px;
 }
+// ===========
