@@ -25,11 +25,28 @@
   p {
     padding: 0;
     margin: 10px;
+    color: white;
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  i {
+    color: rgb(75, 5, 57);
   }
 }
 .company-details-social {
   //making social media icons horizontal
   display: flex;
+
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: rgb(75, 5, 57);
+    transition: 0.4s;
+  }
 }
 .company-details-social i {
   padding-right: 5px;

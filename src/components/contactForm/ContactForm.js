@@ -1,19 +1,12 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
 
+import "./ContactForm.scss";
+
 export default function ContactForm() {
   return (
-    <div
-      className="contact-form-container"
-      style={{ backgroundColor: "lightgrey" }}
-    >
-      <Form
-        style={{
-          maxWidth: "750px",
-          margin: "0 auto",
-          textAlign: "center",
-        }}
-      >
+    <div className="contact-form-container">
+      <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label></Form.Label>
           <Form.Control type="text" placeholder="Your Name" />
@@ -32,7 +25,6 @@ export default function ContactForm() {
           variant="primary"
           type="submit"
           className="contact-us-button p-1 m-2"
-          style={{ width: "250px" }}
         >
           Send
         </Button>
