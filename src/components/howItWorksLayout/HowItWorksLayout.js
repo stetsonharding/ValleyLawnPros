@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+import "./HowItWorksLayout.scss";
+
 //components
 import LandScapeFlow from "../LandscapeFlow/LandScapeFlow";
 
@@ -8,23 +10,13 @@ function HowItWorksLayout() {
   return (
     <Container
       fluid
-      style={{ minHeight: "900px" }}
-      className="howItWorks-container d-flex align-items-center justify-content-center mt-5 mb-5"
+      style={{ minHeight: "700px" }}
+      className="howItWorks-container d-flex align-items-center justify-content-center mt-4 mb-4"
     >
       <Row className="mt-2">
-        <h1
-          className="howItWorks-title"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "flex-start",
-            height: "150px",
-            color: "rgb(92, 15, 92)",
-            fontFamily: "Merriweather, Arial, Helvetica, sans-serif;",
-          }}
-        >
-          How It Works.
-        </h1>
+        <div className="howItWorks-title">
+          <h1>How It Works.</h1>
+        </div>
         <Col
           sm={12}
           md={6}

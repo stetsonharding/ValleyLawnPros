@@ -10,7 +10,7 @@
 }
 .contact-horizontal-line {
   margin: 0 auto;
-  width: 100rem;
+  width: 100%;
 }
 .contact-slogan {
   //flex rules
@@ -19,14 +19,15 @@
   justify-content: flex-end;
 
   text-align: center;
-  height: 100px;
+  height: 100px auto;
   color: #fff;
   letter-spacing: 1px;
+  padding-top: 10px;
 }
 
 //Contact form Column
 .contact-form-column {
-  min-height: 650px;
+  min-height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,7 +36,7 @@
 //Company Details Column
 .company-details-column {
   margin: 0 auto;
-  min-height: 650px;
+  min-height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,8 +54,18 @@
 }
 
 //Horizontal line.
-@media (max-width: 1300px) {
-  .contact-horizontal-line {
-    width: 22rem;
-  }
+@media (max-width: 590px) {
+  // .contact-horizontal-line {
+  //   width: 5rem;
+  // }
+}
+@media (max-width: 1500px) {
+  // .contact-horizontal-line {
+  //   width: 22rem;
+  // }
+}
+@media (max-width: 1500px) {
+  // .contact-horizontal-line {
+  //   width: 22rem;
+  // }
 }

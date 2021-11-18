@@ -1,12 +1,7 @@
 .company-details-container {
   //flex rules
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
-
-  max-width: 550px;
-  height: 300px;
 }
 
 // Company Details
@@ -20,8 +15,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  width: 100%;
   p {
     padding: 0;
     margin: 10px;
@@ -37,8 +30,10 @@
 .company-details-social {
   //making social media icons horizontal
   display: flex;
-
   cursor: pointer;
+  width: 100%;
+  justify-content: center;
+
   a {
     text-decoration: none;
     color: white;
@@ -52,7 +47,14 @@
   padding-right: 5px;
 }
 .horizontal-line {
-  border-bottom: 3px solid rgb(62, 82, 46);
-  width: 400px;
+  border-bottom: 1px solid #fff;
+  width: 98%;
 }
 // ===========
+
+//fit content for mobile
+@media (max-width: 992px) {
+  .company-details {
+    width: fit-content;
+  }
+}
