@@ -9,7 +9,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function ContactUs() {
   return (
-    <Container fluid style={{ minHeight: "800px", backgroundColor: "#4b604f" }}>
+    <Container
+      fluid
+      id="Contact"
+      style={{ minHeight: "800px", backgroundColor: "#4b604f" }}
+    >
       <h1 className="contact-title">Contact</h1>
       <hr className="contact-horizontal-line" />
       <Row>
