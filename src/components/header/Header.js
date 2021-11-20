@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import "./Header.scss";
 
-import VLPLogo from "../../assets/VLP_Logo.png";
+import VLPLogo from "../../assets/VLP_Logo_Small.png";
 
 const Header = () => {
   return (
