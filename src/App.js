@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Index from "./pages/index";
 import Services from "./pages/Services";
@@ -11,14 +11,24 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
+  const [isServiceImageShown, setIsServiceImageShown] = useState(true);
   return (
     <>
       <Router>
         <Header />
 
         <Routes>
-          <Route exact path="/" element={<Index />} />
-          <Route path="/Services" element={<Services />} />
+          <Route
+            exact
+            path="/"
+            element={<Index isServiceImageShown={isServiceImageShown} />}
+          />
+          <Route
+            path="/Services"
+            element={
+              <Services setIsServiceImageShown={setIsServiceImageShown} />
+            }
+          />
         </Routes>
       </Router>
       <Footer />

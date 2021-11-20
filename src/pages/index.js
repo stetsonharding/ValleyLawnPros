@@ -7,10 +7,15 @@ import Services from "../components/services/Services";
 import HowItWorks from "../components/howItWorksLayout/HowItWorksLayout";
 import ContactUs from "../components/contactUs/ContactUs";
 
-const Index = () => {
+const Index = ({ isServiceImageShown }) => {
   return (
     <>
-      <Hero />
+      <Hero
+        title=" Quality Service. Excellent Care. Every Time."
+        subHeadingSpan="Lawn Care"
+        subHeading="Specialists"
+        isServiceImageShown={isServiceImageShown}
+      />
       <CompanyMission />
       <Services />
       <HowItWorks />

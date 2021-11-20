@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import Service from "../Service/Service";
 
@@ -47,9 +48,11 @@ const Services = () => {
             />
           </Col>
           <div style={{ textAlign: "center" }} className="m-3">
-            <Button style={{ backgroundColor: "rgb(92, 15, 92)" }}>
-              View All Services
-            </Button>
+            <Link to="/Services">
+              <Button style={{ backgroundColor: "rgb(92, 15, 92)" }}>
+                View All Services
+              </Button>
+            </Link>
           </div>
         </Row>
       </div>

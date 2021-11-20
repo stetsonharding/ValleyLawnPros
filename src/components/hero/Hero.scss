@@ -34,6 +34,7 @@
   height: 800px;
   position: absolute;
 }
+
 .hero-col h5 {
   color: $success;
   font-weight: bolder;
@@ -93,6 +94,30 @@
     }
   }
 }
+
+// HERO SERVICES CONDITIONAL RENDER STYLING
+//CHANGING SERVICE PAGE HERO IMAGE
+.hero-service-image {
+  width: 100%;
+  min-height: 500px;
+  max-height: 900px;
+  background: url(../../assets/Services_Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+.hero-col-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  max-height: 900px;
+}
+// ====================
+
 // ====================
 
 //smaller fontsize for button on mobile

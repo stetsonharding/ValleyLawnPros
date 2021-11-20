@@ -3,19 +3,27 @@ import { Container, Row, Col } from "react-bootstrap";
 import QuoteModal from "../quoteModal/QuoteModal";
 
 import "./Hero.scss";
-const Hero = () => {
+const Hero = ({ isServiceImageShown, ...props }) => {
   return (
     <>
-      <section className="hero-image">
+      <section
+        className={isServiceImageShown ? "hero-image" : "hero-service-image"}
+      >
         <Container fluid>
           <Row>
-            <Col className="hero-col">
+            <Col
+              className={
+                isServiceImageShown
+                  ? "hero-col"
+                  : "hero-col-services hero-col h5"
+              }
+            >
               <h5 className="hero-main-heading display-4 mb-3">
-                Quality Service. Excellent Care. Every Time.
+                {props.title}
               </h5>
               <h5 className="hero-subheading display-5 mb-5">
-                <span className="span-lawn-care">Lawn Care </span>
-                Specialists
+                <span className="span-lawn-care">{props.subHeadingSpan} </span>
+                {props.subHeading}
               </h5>
               <div className="hero-btn-container">
                 {/* Quote Modal */}
