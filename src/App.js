@@ -12,6 +12,7 @@ import "./App.css";
 
 function App() {
   const [isServiceImageShown, setIsServiceImageShown] = useState(true);
+
   return (
     <>
       <Router>

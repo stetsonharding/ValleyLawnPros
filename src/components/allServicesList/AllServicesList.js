@@ -12,19 +12,19 @@ function AllServicesList() {
         alignItems: "center",
       }}
     >
-      <ul>
+      <ul className="services-list">
         <li>Lawn Mowing</li>
         <li>Trimming and Edging</li>
         <li>Gardening</li>
         <li>Bed Maintence</li>
       </ul>
-      <ul>
+      <ul className="services-list">
         <li>Weed & leaf control</li>
         <li>Sod Installation</li>
         <li>Yard Cleanup</li>
         <li>Planting of trees, flowers and shrubs</li>
       </ul>
-      <ul>
+      <ul className="services-list">
         <li>Holiday Lighting and fixtures</li>
         <li>Snow Removal</li>
         <li>De-icing </li>

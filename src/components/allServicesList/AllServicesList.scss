@@ -1,7 +1,36 @@
-ul {
+//unordered list
+.services-list {
   list-style-image: url(../../assets/list-item-icon.png);
 }
-
-ul li {
+.services-list li {
   font-size: 1.2rem;
+}
+.services-list li:hover {
+  color: green;
+}
+
+//Service Page CSS
+
+.service-intro {
+  margin: 30px 5px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.services-about {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 10px 5px;
+}
+
+.service-list-container h4 {
+  padding: 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(75, 5, 57);
+}
+
+.service-subheading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(75, 5, 57);
+  margin: 10px 5px;
 }

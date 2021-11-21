@@ -18,19 +18,7 @@ export default function ContactUs() {
       <hr className="contact-horizontal-line" />
       <Row>
         <div className="contact-slogan">
-          <h4>
-            Let’s Talk About Your{" "}
-            <span
-              style={{
-                color: "rgb(92, 15, 92)",
-                fontWeight: "700",
-                textTransform: "uppercase",
-                fontFamily: "ariel",
-              }}
-            >
-              Ideas.
-            </span>
-          </h4>
+          <h4>Let’s Talk About Your Ideas.</h4>
           <p>If you have any questions or queries we're here for you anytime</p>
         </div>
 
