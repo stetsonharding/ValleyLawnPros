@@ -4,14 +4,7 @@ import "./AllServicesList.scss";
 
 function AllServicesList() {
   return (
-    <div
-      className="service-list"
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
-    >
+    <div className="service-list">
       <ul className="services-list">
         <li>Lawn Mowing</li>
         <li>Trimming and Edging</li>

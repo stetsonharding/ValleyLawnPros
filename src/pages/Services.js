@@ -21,7 +21,7 @@ function Services() {
             <div className="service-intro">
               <h4 className="service-subheading">Leave It To The Pro's</h4>
               <p className="services-about">
-                Valley Lawn Pros is here to make you happy about your lawn.
+                Valley Lawn Pro's is here to make you happy about your lawn.
                 Sometimes lawn mowing, although important, isn't enough. That's
                 why we provide a wide range of services to make sure your lawn
                 looks its finest.
@@ -31,7 +31,7 @@ function Services() {
               <h4 id="service-list-title">Our most popular services:</h4>
               <AllServicesList />
             </div>
-            <h4 className="service-subheading">Garenteed satisfaction.</h4>
+            <h4 className="service-subheading">Garenteed satisfaction</h4>
             <p className="services-about">
               Valley Lawn Pros is dedicated to serving residential and
               commercial customers with experience and top notch quality.

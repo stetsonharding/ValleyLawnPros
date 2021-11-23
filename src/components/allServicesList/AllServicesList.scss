@@ -2,6 +2,13 @@
 .services-list {
   list-style-image: url(../../assets/list-item-icon.png);
 }
+
+.service-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .services-list li {
   font-size: 1.2rem;
 }
@@ -33,4 +40,13 @@
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(75, 5, 57);
   margin: 10px 5px;
+}
+
+@media (max-width: 992px) {
+  .service-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
