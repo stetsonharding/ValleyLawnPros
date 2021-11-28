@@ -2,8 +2,11 @@ import React, { useEffect } from "react";
 import Hero from "../components/hero/Hero";
 
 import AllServicesList from "../components/allServicesList/AllServicesList";
+import Comparison from "../components/comparison/Comparison";
 
 import "../components/allServicesList/AllServicesList.scss";
+
+import { ComparisonImages } from "../components/comparison/ComparisonData";
 
 import { Container, Row, Col } from "react-bootstrap";
 function Services() {
@@ -36,6 +39,25 @@ function Services() {
               Valley Lawn Pros is dedicated to serving residential and
               commercial customers with experience and top notch quality.
             </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="comparison-title">
+              <h3>We make yards happy and their owners too</h3>
+            </div>
+            <div
+              className="comparison-container"
+              style={{ display: "flex", justifyContent: "space-evenly" }}
+            >
+              {ComparisonImages.map((item) => (
+                <Comparison
+                  before={item.before}
+                  after={item.after}
+                  key={item.id}
+                />
+              ))}
+            </div>
           </Col>
         </Row>
       </Container>
