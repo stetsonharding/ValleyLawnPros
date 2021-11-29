@@ -74,7 +74,7 @@ function Services() {
                 ))}
               </div>
             )}
-            <div style={{ width: "100%", textAlign: "center" }}>
+            <div className="Load-More-Button-container">
               <button onClick={() => setIsLoadMoreShown(!isLoadMoreShown)}>
                 {isLoadMoreShown ? "Show Less" : "Show More"}
               </button>

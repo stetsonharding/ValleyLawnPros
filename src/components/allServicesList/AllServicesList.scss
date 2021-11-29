@@ -52,6 +52,21 @@
   text-align: center;
 }
 
+.Load-More-Button-container {
+  width: "100%";
+  text-align: center;
+  margin: 15px;
+}
+
+.Load-More-Button-container button {
+  border: none;
+  color: rgb(75, 5, 57);
+}
+
+.Load-More-Button-container button:hover {
+  text-decoration: underline;
+}
+
 //Comparison Photos Flex
 @media (max-width: 692px) {
   .comparison-container {
