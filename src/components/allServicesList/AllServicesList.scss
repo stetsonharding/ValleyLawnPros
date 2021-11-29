@@ -42,6 +42,9 @@
   margin: 10px 5px;
 }
 
+.comparison-title {
+  margin: 20px;
+}
 .comparison-title h3 {
   padding: 10px 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +52,16 @@
   text-align: center;
 }
 
+//Comparison Photos Flex
+@media (max-width: 692px) {
+  .comparison-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+//List of services Flex
 @media (max-width: 992px) {
   .service-list {
     display: flex;

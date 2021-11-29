@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Hero from "../components/hero/Hero";
 
 import AllServicesList from "../components/allServicesList/AllServicesList";
@@ -7,9 +7,11 @@ import Comparison from "../components/comparison/Comparison";
 import "../components/allServicesList/AllServicesList.scss";
 
 import { ComparisonImages } from "../components/comparison/ComparisonData";
+import { ComparisonImagesTwo } from "../components/comparison/ComparisonData";
 
 import { Container, Row, Col } from "react-bootstrap";
 function Services() {
+  const [isLoadMoreShown, setIsLoadMoreShown] = useState(false);
   //Start on top of the page when navigated to Services page.
   useEffect(() => {
     document.body.scrollTop = 0;
@@ -57,6 +59,25 @@ function Services() {
                   key={item.id}
                 />
               ))}
+            </div>
+            {isLoadMoreShown && (
+              <div
+                className="comparison-container"
+                style={{ display: "flex", justifyContent: "space-evenly" }}
+              >
+                {ComparisonImagesTwo.map((item) => (
+                  <Comparison
+                    before={item.before}
+                    after={item.after}
+                    key={item.id}
+                  />
+                ))}
+              </div>
+            )}
+            <div style={{ width: "100%", textAlign: "center" }}>
+              <button onClick={() => setIsLoadMoreShown(!isLoadMoreShown)}>
+                {isLoadMoreShown ? "Show Less" : "Show More"}
+              </button>
             </div>
           </Col>
         </Row>

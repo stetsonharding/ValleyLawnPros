@@ -13,7 +13,7 @@ function Comparison(props) {
         key={props.id}
         itemOne={<ReactCompareSliderImage src={props.before} />}
         itemTwo={<ReactCompareSliderImage src={props.after} />}
-        style={{ width: "300px", height: "300px", margin: "10px" }}
+        style={{ width: "300px", height: "300px", margin: "8px" }}
       />
     </>
   );
