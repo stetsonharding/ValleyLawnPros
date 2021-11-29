@@ -4,8 +4,6 @@ import {
   ReactCompareSliderImage,
 } from "react-compare-slider";
 
-import "./Comparison.scss";
-
 function Comparison(props) {
   return (
     <>

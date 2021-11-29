@@ -11,6 +11,9 @@ import ImageFourAfter from "../../assets/projectComparisons/ImageFourAfter.jpg";
 import ImageFiveBefore from "../../assets/projectComparisons/ImageFiveBefore.jpg";
 import ImageFiveAfter from "../../assets/projectComparisons/ImageFiveAfter.jpg";
 
+import ImageSixBefore from "../../assets/projectComparisons/ImageSixBefore.jpg";
+import ImageSixAfter from "../../assets/projectComparisons/ImageSixAfter.jpg";
+
 export const ComparisonImages = [
   {
     id: 1,
@@ -42,7 +45,7 @@ export const ComparisonImagesTwo = [
   },
   {
     id: 3,
-    before: ImageOneBefore,
-    after: ImageOneAfter,
+    before: ImageSixBefore,
+    after: ImageSixAfter,
   },
 ];

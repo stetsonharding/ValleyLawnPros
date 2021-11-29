@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
-import Hero from "../components/hero/Hero";
+import { Container, Row, Col } from "react-bootstrap";
 
+//components
+import Hero from "../components/hero/Hero";
 import AllServicesList from "../components/allServicesList/AllServicesList";
 import Comparison from "../components/comparison/Comparison";
 
+//scscc files
 import "../components/allServicesList/AllServicesList.scss";
 
+//data for projects
 import { ComparisonImages } from "../components/comparison/ComparisonData";
 import { ComparisonImagesTwo } from "../components/comparison/ComparisonData";
 
-import { Container, Row, Col } from "react-bootstrap";
 function Services() {
+  //state for load more button
   const [isLoadMoreShown, setIsLoadMoreShown] = useState(false);
   //Start on top of the page when navigated to Services page.
   useEffect(() => {
@@ -45,7 +49,7 @@ function Services() {
         </Row>
         <Row>
           <Col>
-            <div className="comparison-title">
+            <div className="comparison-title-container">
               <h3>We make yards happy and their owners too</h3>
             </div>
             <div
@@ -60,6 +64,7 @@ function Services() {
                 />
               ))}
             </div>
+            {/* //second row of projects */}
             {isLoadMoreShown && (
               <div
                 className="comparison-container"
@@ -74,6 +79,7 @@ function Services() {
                 ))}
               </div>
             )}
+            {/* ====== */}
             <div className="Load-More-Button-container">
               <button onClick={() => setIsLoadMoreShown(!isLoadMoreShown)}>
                 {isLoadMoreShown ? "Show Less" : "Show More"}

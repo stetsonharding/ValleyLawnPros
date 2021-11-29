@@ -1,14 +1,12 @@
-//unordered list
+//unordered list of services
 .services-list {
   list-style-image: url(../../assets/list-item-icon.png);
 }
-
 .service-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .services-list li {
   font-size: 1.2rem;
 }
@@ -17,55 +15,53 @@
 }
 
 //Service Page CSS
-
 .service-intro {
   margin: 30px 5px;
   letter-spacing: 1px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .services-about {
   font-size: 1.1rem;
   letter-spacing: 1px;
   margin: 10px 5px;
 }
-
 .service-list-container h4 {
   padding: 10px 5px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(75, 5, 57);
 }
-
 .service-subheading {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(75, 5, 57);
   margin: 10px 5px;
 }
 
-.comparison-title {
+// Comparison Title
+.comparison-title-container {
   margin: 20px;
 }
-.comparison-title h3 {
+.comparison-title-container h3 {
   padding: 10px 5px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(75, 5, 57);
   text-align: center;
 }
+// =======
 
+// Load More Button
 .Load-More-Button-container {
   width: "100%";
   text-align: center;
   margin: 15px;
 }
-
 .Load-More-Button-container button {
   border: none;
   color: rgb(75, 5, 57);
 }
-
 .Load-More-Button-container button:hover {
   text-decoration: underline;
 }
+// =======
 
 //Comparison Photos Flex
 @media (max-width: 692px) {
