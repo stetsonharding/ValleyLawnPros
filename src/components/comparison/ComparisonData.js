@@ -1,18 +1,18 @@
-import ImageOneBefore from "../../assets/projectComparisons/ImageOneBefore.jpg";
-import ImageOneAfter from "../../assets/projectComparisons/ImageOneAfter.jpg";
-import ImageTwoBefore from "../../assets/projectComparisons/ImageTwoBefore.jpg";
-import ImageTwoAfter from "../../assets/projectComparisons/ImageTwoAfter.jpg";
-import ImageThreeBefore from "../../assets/projectComparisons/ImageThreeBefore.jpg";
-import ImageThreeAfter from "../../assets/projectComparisons/ImageThreeAfter.jpg";
+import ImageOneBefore from "../../assets/projectComparisons/ImageOneBefore.webp";
+import ImageOneAfter from "../../assets/projectComparisons/ImageOneAfter.webp";
+import ImageTwoBefore from "../../assets/projectComparisons/ImageTwoBefore.webp";
+import ImageTwoAfter from "../../assets/projectComparisons/ImageTwoAfter.webp";
+import ImageThreeBefore from "../../assets/projectComparisons/ImageThreeBefore.webp";
+import ImageThreeAfter from "../../assets/projectComparisons/ImageThreeAfter.webp";
 
-import ImageFourBefore from "../../assets/projectComparisons/ImageFourBefore.jpg";
-import ImageFourAfter from "../../assets/projectComparisons/ImageFourAfter.jpg";
+import ImageFourBefore from "../../assets/projectComparisons/ImageFourBefore.webp";
+import ImageFourAfter from "../../assets/projectComparisons/ImageFourAfter.webp";
 
-import ImageFiveBefore from "../../assets/projectComparisons/ImageFiveBefore.jpg";
-import ImageFiveAfter from "../../assets/projectComparisons/ImageFiveAfter.jpg";
+import ImageFiveBefore from "../../assets/projectComparisons/ImageFiveBefore.webp";
+import ImageFiveAfter from "../../assets/projectComparisons/ImageFiveAfter.webp";
 
-import ImageSixBefore from "../../assets/projectComparisons/ImageSixBefore.jpg";
-import ImageSixAfter from "../../assets/projectComparisons/ImageSixAfter.jpg";
+import ImageSixBefore from "../../assets/projectComparisons/ImageSixBefore.webp";
+import ImageSixAfter from "../../assets/projectComparisons/ImageSixAfter.webp";
 
 export const ComparisonImages = [
   {
