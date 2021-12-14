@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 
 //react router imports
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 //app css
 import "./App.css";
@@ -17,7 +18,7 @@ function App() {
     <>
       <Router>
         <Header />
-
+        <ScrollToTop />
         <Routes>
           <Route
             exact

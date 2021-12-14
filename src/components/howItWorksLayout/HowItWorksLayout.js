@@ -26,8 +26,7 @@ function HowItWorksLayout() {
           <LandScapeFlow
             flowIcon="far fa-comment-dots fa-3x"
             step="Step 1: We come to you"
-            flowDescription="You'll get a text when we head your way. Our initial meeting is simply to listen to your desires so we can begin 
-            designing a customized plan to fit your budget."
+            flowDescription="You'll get a text when we head your way. Our initial meeting is simply to listen to your desires so we can begin designing a customized plan to fit your budget."
           />
         </Col>
         <Col
