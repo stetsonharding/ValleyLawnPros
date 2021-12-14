@@ -6,7 +6,10 @@ function CompanyDetails() {
   return (
     <div className="company-details-container">
       {/* Details components */}
-      <Details detailIcon="fas fa-map-marker-alt" detail="Monroe, Washington" />
+      <Details
+        detailIcon="fas fa-map-marker-alt"
+        detail="Snohomish, Washington"
+      />
       <Details detailIcon="fas fa-mobile-alt" detail="(425)330-9709" />
       {/* ==== */}
       <hr className="horizontal-line" />
@@ -31,7 +34,9 @@ function Details(props) {
   return (
     <div className="company-details">
       <div className="company-details-flex">
-        <i className={props.detailIcon + " fa-2x"}></i>
+        <a href={`tel:4253309709`}>
+          <i className={props.detailIcon + " fa-2x"}></i>
+        </a>
         <div>{<p>{props.detail}</p>}</div>
       </div>
     </div>
