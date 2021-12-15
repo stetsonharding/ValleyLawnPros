@@ -39,7 +39,7 @@ function HowItWorksLayout() {
             flowIcon="far fa-eye fa-3x"
             step="Step 2: Presentation"
             flowDescription="Your landscape design will get lots of attention as we personally design your plan by hand. 
-           We then present you with a clear picture of how your landscape look and feel."
+           We then present you with a clear picture of how your landscape will look and feel."
           />
         </Col>
         <Col

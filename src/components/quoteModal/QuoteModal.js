@@ -81,6 +81,13 @@ function QuoteModal() {
               <Form.Text className="text-muted">
                 We will give you a call within the next 24 hours
               </Form.Text>
+              <br />
+              <br />
+              <Form.Text className="text-muted">
+                <strong>
+                  Prefer to email? Reach us at valleylawnpros@gmail.com
+                </strong>
+              </Form.Text>
             </Form.Group>
 
             <Button variant="dark" type="submit">

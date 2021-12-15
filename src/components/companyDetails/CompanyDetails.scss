@@ -52,7 +52,18 @@
 }
 // ===========
 
+@media (max-width: 290px) {
+  .contact-icons {
+    display: none;
+  }
+}
+
 //fit content for mobile
+@media (max-width: 992px) {
+  .company-details {
+    width: fit-content;
+  }
+}
 @media (max-width: 992px) {
   .company-details {
     width: fit-content;

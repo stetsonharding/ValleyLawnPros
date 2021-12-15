@@ -11,6 +11,10 @@ function CompanyDetails() {
         detail="Snohomish, Washington"
       />
       <Details detailIcon="fas fa-mobile-alt" detail="(425)330-9709" />
+      <Details
+        detailIcon="far fa-envelope-open"
+        detail="valleylawnpros@gmail.com"
+      />
       {/* ==== */}
       <hr className="horizontal-line" />
       {/* Social Media Icons */}
@@ -34,7 +38,7 @@ function Details(props) {
   return (
     <div className="company-details">
       <div className="company-details-flex">
-        <a href={`tel:4253309709`}>
+        <a className="contact-icons" href={`tel:4253309709`}>
           <i className={props.detailIcon + " fa-2x"}></i>
         </a>
         <div>{<p>{props.detail}</p>}</div>
