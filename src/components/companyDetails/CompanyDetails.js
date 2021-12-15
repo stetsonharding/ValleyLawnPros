@@ -13,7 +13,7 @@ function CompanyDetails() {
       <Details detailIcon="fas fa-mobile-alt" detail="(425)330-9709" />
       <Details
         detailIcon="far fa-envelope-open"
-        detail="valleylawnpros@gmail.com"
+        detail="thevalleylawnpros@gmail.com"
       />
       {/* ==== */}
       <hr className="horizontal-line" />

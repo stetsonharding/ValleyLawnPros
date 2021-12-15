@@ -85,7 +85,7 @@ function QuoteModal() {
               <br />
               <Form.Text className="text-muted">
                 <strong>
-                  Prefer to email? Reach us at valleylawnpros@gmail.com
+                  Prefer to email? Reach us at thevalleylawnpros@gmail.com
                 </strong>
               </Form.Text>
             </Form.Group>
