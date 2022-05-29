@@ -13,7 +13,7 @@ export default function Footer() {
       }}
     >
       <div>
-        <p>Valley Lawn Pros &copy; 2021</p>
+        <p>Valley Lawn Pros &copy; 2022</p>
         <p
           style={{
             textAlign: "center",

@@ -11,8 +11,8 @@ function Service(props) {
             loading="lazy"
             src={props.src}
             alt={props.alt}
-            width="320"
-            height="316"
+            width="220"
+            height="236"
           />
         </div>
       </div>

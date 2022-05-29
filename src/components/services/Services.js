@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 
 import Service from "../Service/Service";
 
-import GrassMower from "../../assets/GrassMower.jpg";
+// import GrassMower from "../../assets/GrassMower.jpg";
 import HolidayLightings from "../../assets/holidayLightings.jpg";
 import GardeningAndTreatment from "../../assets/GardeningAndTreatment.jpg";
+import services_grass_mower from "../../assets/services_grass_mower.webp";
 
 import "./Services.scss";
 
@@ -26,7 +27,7 @@ const Services = () => {
           </div>
           <Col>
             <Service
-              src={GrassMower}
+              src={services_grass_mower}
               alt="Employee maintaining lawn"
               description="Landscape Design & Installation"
             />
