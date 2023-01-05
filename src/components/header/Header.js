@@ -4,6 +4,8 @@ import "./Header.scss";
 
 import VLPLogo from "../../assets/VLP_Logo_Small.png";
 
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <Navbar
@@ -14,7 +16,7 @@ const Header = () => {
       bg="primary"
     >
       <Container fluid>
-        <Navbar.Brand href="/">
+        <Navbar.Brand to="/">
           <img
             style={{ width: "130px" }}
             id="logo"
@@ -30,15 +32,20 @@ const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav className="navbar-links-container">
-            <Nav.Link id="navbar-link" href="/">
+            <Link id="navbar-link" to="/">
               Home
-            </Nav.Link>
+            </Link>
+            <Link id="navbar-link" to="/Services">
+              Services
+            </Link>
+            {/* 
             <Nav.Link id="navbar-link" href="/Services">
               Services
-            </Nav.Link>
-            <Nav.Link id="navbar-link" href="/#Contact">
+            </Nav.Link> */}
+
+            <Link id="navbar-link" to={"/#Contact"}>
               Contact
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

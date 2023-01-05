@@ -5,7 +5,7 @@ import Services from "./pages/Services";
 import Footer from "./components/footer/Footer";
 
 //react router imports
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
 //app css
@@ -16,7 +16,21 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Header />
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={<Index isServiceImageShown={isServiceImageShown} />}
+        ></Route>
+
+        <Route
+          path="/Services"
+          element={<Services setIsServiceImageShown={setIsServiceImageShown} />}
+        ></Route>
+      </Routes>
+
+      {/* <Router>
         <Header />
         <ScrollToTop />
         <Routes>
@@ -32,7 +46,7 @@ function App() {
             }
           />
         </Routes>
-      </Router>
+      </Router> */}
       <Footer />
     </>
   );
