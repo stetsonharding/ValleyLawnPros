@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ValleyLawnPros/static/css/main.074190a6.css",
+    "main.js": "/ValleyLawnPros/static/js/main.9fb574fc.js",
+    "static/js/787.4b584052.chunk.js": "/ValleyLawnPros/static/js/787.4b584052.chunk.js",
+    "static/media/VLP-hero.webp": "/ValleyLawnPros/static/media/VLP-hero.d86f9dc0c2aad1f130cf.webp",
+    "static/media/ImageFourBefore.webp": "/ValleyLawnPros/static/media/ImageFourBefore.a58626517da0e6b1081b.webp",
+    "static/media/ImageSixBefore.webp": "/ValleyLawnPros/static/media/ImageSixBefore.745e090fdf3eee56c3c2.webp",
+    "static/media/ImageThreeBefore.webp": "/ValleyLawnPros/static/media/ImageThreeBefore.bd2608847180acc09f63.webp",
+    "static/media/ImageFourAfter.webp": "/ValleyLawnPros/static/media/ImageFourAfter.d23a3e450da618ecdc8d.webp",
+    "static/media/ImageThreeAfter.webp": "/ValleyLawnPros/static/media/ImageThreeAfter.9bf8578b8e3a00864c36.webp",
+    "static/media/ImageSixAfter.webp": "/ValleyLawnPros/static/media/ImageSixAfter.e06d360c7cbfbc813586.webp",
+    "static/media/ImageFiveBefore.webp": "/ValleyLawnPros/static/media/ImageFiveBefore.26c49927ea81b5f6be68.webp",
+    "static/media/ImageTwoBefore.webp": "/ValleyLawnPros/static/media/ImageTwoBefore.0d36030f25966697532b.webp",
+    "static/media/ImageOneAfter.webp": "/ValleyLawnPros/static/media/ImageOneAfter.9812b6207ed428c3a836.webp",
+    "static/media/ImageTwoAfter.webp": "/ValleyLawnPros/static/media/ImageTwoAfter.56893dabaf0700a794de.webp",
+    "static/media/ImageFiveAfter.webp": "/ValleyLawnPros/static/media/ImageFiveAfter.55be170acb2be083163e.webp",
+    "static/media/ImageOneBefore.webp": "/ValleyLawnPros/static/media/ImageOneBefore.916d36b8ea440c8be1bf.webp",
+    "static/media/GardeningAndTreatment.jpg": "/ValleyLawnPros/static/media/GardeningAndTreatment.3e21ee2f843e3500e2a2.jpg",
+    "static/media/Hero_Image.jpg": "/ValleyLawnPros/static/media/Hero_Image.67ca43ba3cefef5759e0.jpg",
+    "static/media/Services_Background.webp": "/ValleyLawnPros/static/media/Services_Background.a1a62bf68925a38e52c6.webp",
+    "static/media/holidayLightings.jpg": "/ValleyLawnPros/static/media/holidayLightings.d4de782475db4bd1a1a1.jpg",
+    "static/media/ServiceBG_.webp": "/ValleyLawnPros/static/media/ServiceBG_.acf992b81e1f4dc316ae.webp",
+    "static/media/services_grass_mower.webp": "/ValleyLawnPros/static/media/services_grass_mower.07f20ea41b74980b4579.webp",
+    "static/media/VLP_Logo_Small.png": "/ValleyLawnPros/static/media/VLP_Logo_Small.b0a27580e5a8553a66b8.png",
+    "index.html": "/ValleyLawnPros/index.html",
+    "main.074190a6.css.map": "/ValleyLawnPros/static/css/main.074190a6.css.map",
+    "main.9fb574fc.js.map": "/ValleyLawnPros/static/js/main.9fb574fc.js.map",
+    "787.4b584052.chunk.js.map": "/ValleyLawnPros/static/js/787.4b584052.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.074190a6.css",
+    "static/js/main.9fb574fc.js"
+  ]
+}
