@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ValleyLawnPros/static/css/main.074190a6.css",
-    "main.js": "/ValleyLawnPros/static/js/main.9fb574fc.js",
+    "main.js": "/ValleyLawnPros/static/js/main.f243c628.js",
     "static/js/787.4b584052.chunk.js": "/ValleyLawnPros/static/js/787.4b584052.chunk.js",
     "static/media/VLP-hero.webp": "/ValleyLawnPros/static/media/VLP-hero.d86f9dc0c2aad1f130cf.webp",
     "static/media/ImageFourBefore.webp": "/ValleyLawnPros/static/media/ImageFourBefore.a58626517da0e6b1081b.webp",
@@ -25,11 +25,11 @@
     "static/media/VLP_Logo_Small.png": "/ValleyLawnPros/static/media/VLP_Logo_Small.b0a27580e5a8553a66b8.png",
     "index.html": "/ValleyLawnPros/index.html",
     "main.074190a6.css.map": "/ValleyLawnPros/static/css/main.074190a6.css.map",
-    "main.9fb574fc.js.map": "/ValleyLawnPros/static/js/main.9fb574fc.js.map",
+    "main.f243c628.js.map": "/ValleyLawnPros/static/js/main.f243c628.js.map",
     "787.4b584052.chunk.js.map": "/ValleyLawnPros/static/js/787.4b584052.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.074190a6.css",
-    "static/js/main.9fb574fc.js"
+    "static/js/main.f243c628.js"
   ]
 }
